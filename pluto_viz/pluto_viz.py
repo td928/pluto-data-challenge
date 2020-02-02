@@ -156,7 +156,7 @@ hover = HoverTool(tooltips = [ ('BBL','@bbl'),
 p = make_plot(input_field)
 
 # Make a slider object: slider 
-slider = Slider(title = 'Assessed Total Value Equal or Above',start = 0, end = 1000000, step = 50000, value = 50000, ) # what is the value doing here
+slider = Slider(title = 'Assessed Total Value Equal or Above',start = 0, end = 1000000, step = 50000, value = 0, ) # this is the initial value
 slider.on_change('value', update_plot)
 
 # Make a selection object: select
