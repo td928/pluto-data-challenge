@@ -144,7 +144,7 @@ palette = palette[::-1]
 
 # Add hover tool
 
-hover = HoverTool(tooltips = [ #('BBL','@bbl'),
+hover = HoverTool(tooltips = [ ('BBL','@bbl'),
                               ('Assessed total value in USD', '$@assesstot{,}'),
                               ('Number of Residential Units', '@unitsres'),
                               ('Total Lot Area (sqft)', '@lotarea{,}'),
